@@ -4,7 +4,7 @@
   "height": 500,
   "title": "Victoria's Most Expensive Housing Suburbs",
   "data": {
-    "url": "https://raw.githubusercontent.com/JaredNgu/Week9HW/main/homework10viz1.csv"
+    "url": "https://raw.githubusercontent.com/JaredNgu/assignment2/main/expensivesuburbs.csv"
   },
   "selection": {
  "continent_highlight": {
