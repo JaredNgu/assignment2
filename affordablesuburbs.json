@@ -1,4 +1,3 @@
-
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 500,
@@ -17,7 +16,7 @@
 
   "mark": "bar",
   "encoding": {
-    "x": {"field": "Suburbs", "type": "nominal", "axis": {"labelAngle": 0}},
+    "x": {"field": "Suburbs", "type": "nominal", "axis": {"tickOffset": 0}},
     "y": {"field": "Average of Price", "type": "quantitative"},
     "color": {"field": "Region", "type": "nominal"},
   "opacity": {
