@@ -3,10 +3,10 @@
   "width": 800,
   "height": 500,
   "title": "House prices across Victoria",
-  "projection": {"type": "equirectangular",
-      
-      "center": [145,-38],
-      "scale": 50000
+  "projection": {
+    "type": "equirectangular",
+    "center": [145, -38],
+    "scale": 30000
   },
   "layer": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/JaredNgu/assignment2/main/expensivesuburbs.csv"
+        "url": "https://raw.githubusercontent.com/JaredNgu/assignment2/main/suburbsmelbourne.csv"
       },
       "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {
@@ -27,10 +27,7 @@
         "color": {
           "field": "Average of Price",
           "type": "quantitative",
-         "scale" :{
-           "scheme" : "turbo"
-        
-         }
+          "scale": {"scheme": "turbo"}
         }
       }
     }
