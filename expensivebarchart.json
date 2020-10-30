@@ -16,8 +16,9 @@
 
   "mark": "bar",
   "encoding": {
-    "x": {"field": "Suburbs", "type": "nominal", "axis": {"labelAngle": 0}},
-    "y": {"field": "Average of Price", "type": "quantitative"},
+    "x": {"field": "Suburbs", "type": "nominal", "axis": {"tickOffset": 1}},
+    "y": {"field": "Average of Price", "type": "quantitative" },
+    
     "color": {"field": "Region", "type": "nominal"},
   "opacity": {
           "condition": {"selection": "continent_highlight", "value": 1.0},
